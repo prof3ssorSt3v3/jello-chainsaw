@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Authentication</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script type="module" src="js/main.js"></script>
+  </head>
+  <body class="">
+    <header>
+      <h1>Authentication</h1>
+      <h2></h2>
+    </header>
+    <main>
+      <section class="red">
+        <h2>Log In</h2>
+        <form>
+          <p class="formbox"><label for="username">Username</label><input type="text" id="username" name="username" required autocomplete="username" /></p>
+          <p class="formbox"><label for="password">Password</label><input type="password" id="password" name="password" required autocomplete="current-password" /></p>
+          <p class="formbox actions"><button id="btnLogin">Login</button></p>
+        </form>
+      </section>
+      <section class="green">
+        <h2>Welcome</h2>
+        <p><button id="btnLogout">Logout</button></p>
+        <div class="content">
+          <p>The private data stuff</p>
+        </div>
+      </section>
+      <section class="yellow">
+        <h2>Buttons</h2>
+        <p><button>Get Token from Cookies</button></p>
+        <p><button>Get Token from SessionStorage</button></p>
+        <p><button>Show Private Data</button></p>
+        <p><button>Show Login</button></p>
+        <p><button>Get Username from Token</button></p>
+      </section>
+    </main>
+  </body>
+</html>

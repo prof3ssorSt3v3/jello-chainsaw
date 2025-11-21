@@ -49,6 +49,7 @@ body:not(.red, .green) section {
 
   &::after {
     content: 'nope';
+    touch-action: none;
     font-size: 2rem;
     display: flex;
     justify-content: center;
